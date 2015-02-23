@@ -24,11 +24,14 @@
 	  .,META-INF/services/
         </servicemix.osgi.bundle.classpath>
         <servicemix.osgi.export.pkg>
-	    com.sun.jersey*,
-            com.sun.research.ws.wadl,
-            com.sun.ws.rs.ext,
             org.neo4j
 	</servicemix.osgi.export.pkg>
+	<servicemix.osgi.private.pkg>
+            com.sun.jersey*,                                                                                       
+            com.sun.research.ws.wadl,                                                                              
+            com.sun.ws.rs.ext,
+	    javax.ws*;-split-package:=merge-first,
+	</servicemix.osgi.private.pkg>
 	<servicemix.osgi.import.pkg>
 		au.com.bytecode.opencsv,
 		ch.qos.logback.classic*;version="[1.0.0,2.0.0)", 
@@ -67,9 +70,6 @@
 		org.apache.tools.ant, 
 		org.apache.tools.ant.types, 
 		org.xml.sax,
-		javax.ws.rs, 
-		javax.ws.rs.core, 
-		javax.ws.rs.ext, 
 		org.eclipse.jetty.http, 
 		org.eclipse.jetty.io, 
 		org.eclipse.jetty.server, 
@@ -92,11 +92,11 @@
 	        org.codehaus.janino;resolution:=optional,
 		org.ietf.jgss;resolution:=optional,
 	        org.jvnet.mimepull,
-	        org.mozilla.javascript;resolution:=optional,
+	        org.mozilla.javascript,
 	        org.objectweb.asm;resolution:=optional,
 	        org.osgi.framework,
 		org.parboiled*,
-	        org.rrd4j*;resolution:=optional,
+	        org.rrd4j*,
 		org.slf4j*,
 	        org.w3c.dom;resolution:=optional,
 	        scala*;resolution:=optional,
@@ -201,11 +201,6 @@
             <version>${pkgVersion}</version>
         </dependency>
 	<dependency>
-	    <groupId>org.neo4j.server</groupId>
-	    <artifactId>authentication-extension</artifactId>
-	    <version>${pkgVersion}</version>
-	</dependency>
-	<dependency>
 	    <groupId>com.sun.jersey</groupId>
 	    <artifactId>jersey-core</artifactId>
 	    <version>1.9</version>
@@ -254,7 +249,6 @@
 				    <include>${pkgGroupId}:neo4j-cypher-compiler-2.0</include>
 				    <include>${pkgGroupId}:neo4j-cypher-compiler-2.1</include>
                                     <include>${pkgGroupId}:neo4j-jmx</include>
-                                    <include>org.neo4j.server:authentication-extension</include>
 				    <include>org.neo4j.app:neo4j-server</include>
 				    <include>org.neo4j.app:neo4j-server:static-web</include>		    
 				    <include>org.neo4j.app:neo4j-browser</include>
@@ -377,13 +371,6 @@
                                         <include>**/*.xml</include>
 					<include>META-INF/services/</include>
 					<include>browser/</include>
-                                    </includes>
-                                </filter>
-                                <filter>
-                                    <artifact>org.neo4j.server:authentication-extension</artifact>
-                                    <includes>
-                                        <include>**/*.xml</include>
-					<include>META-INF/services/</include>
                                     </includes>
                                 </filter>
                                 <filter>
