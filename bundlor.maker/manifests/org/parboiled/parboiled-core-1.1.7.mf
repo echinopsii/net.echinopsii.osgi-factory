@@ -1,0 +1,5 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.echinopsii.3rdparty.parboiled-core
+Bundle-Name: net.echinopsii.3rdparty.parboiled-core
+Bundle-Vendor: parboiled.org (source) / echinopsii (bundle)
+Bundle-Version: 1.1.7

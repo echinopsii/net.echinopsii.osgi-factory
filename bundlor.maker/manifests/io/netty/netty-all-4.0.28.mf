@@ -1,0 +1,18 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.echinopsii.3rdparty.netty-all
+Bundle-Name: net.echinopsii.3rdparty.netty-all
+Bundle-Vendor: netty.io (source) / echinopsii (bundle)
+Bundle-Version: 4.0.28
+Import-Template:
+  com.barchart.udt*;resolution:=optional,
+  com.google.protobuf;resolution:=optional,
+  com.jcraft.jzlib;resolution:=optional,
+  gnu.io;resolution:=optional,
+  javassists;resolution:=optional,
+  org.apache.commons.logging;resolution:=optional,
+  org.apache.log4j;resolution:=optional,
+  org.apache.tomcat.jni;resolution:=optional,
+  org.bouncycastle*;resolution:=optional,
+  org.eclipse.jetty*;resolution:=optional,
+  org.jboss.marshalling;resolution:=optional,
+  org.slf4j*;resolution:=optional
