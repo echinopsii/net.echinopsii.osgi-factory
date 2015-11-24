@@ -7,6 +7,8 @@ Import-Package:
   cern.colt.function;version="[1.2,2)",
   cern.colt.list;version="[1.2,2)",
   cern.colt.map;version="[1.2,2)",
+  com.carrotsearch.hppc;version="0.6.0",
+  com.carrotsearch.hppc.procedures;version="0.6.0",
   com.fasterxml.jackson.core;version="[2.2,3)",
   com.fasterxml.jackson.databind;version="[2.2,3)",
   com.fasterxml.jackson.databind.node;version="[2.2,3)",

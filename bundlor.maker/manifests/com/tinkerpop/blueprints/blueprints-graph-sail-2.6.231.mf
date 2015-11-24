@@ -3,3 +3,11 @@ Bundle-SymbolicName: net.echinopsii.3rdparty.com.tinkerpop.blueprints.blueprints
 Bundle-Name: net.echinopsii.3rdparty.com.tinkerpop.blueprints.blueprints-graph-sail
 Bundle-Vendor: Tinkerpop (source) / echinopsii (bundle).
 Bundle-Version: 2.6.231
+Import-Template:
+  com.tinkerpop.blueprints*;version="[2.6,2.7)",
+  info.aduna.iteration;version="2.7.10",
+  net.fortytwo.sesametools;version="[1.8, 1.9)",
+  org.openrdf.model*;version="2.7.10",
+  org.openrdf.query*;version="2.7.10",
+  org.openrdf.rio;version="2.7.10",
+  org.openrdf.sail*;version="2.7.10"
