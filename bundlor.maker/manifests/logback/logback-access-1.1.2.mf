@@ -1,0 +1,11 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.echinopsii.3rdparty.logback-access
+Bundle-Name: net.echinopsii.3rdparty.logback-access
+Bundle-Vendor: logback-access (source) / echinopsii (bundle)
+Bundle-Version: 1.1.2
+Import-Template:
+  ch.qos.logback.core*;version="1.1.2",
+  javax.servlet*,
+  org.apache.catalina*;resolution:="optional",
+  org.eclipse.jetty*;resolution:="optional",
+  org.apache.coyote;resolution:="optional"
