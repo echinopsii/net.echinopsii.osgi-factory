@@ -8,7 +8,7 @@ Import-Template:
   com.google.protobuf;resolution:=optional,
   com.jcraft.jzlib;resolution:=optional,
   gnu.io;resolution:=optional,
-  javassists;resolution:=optional,
+  javassist;resolution:=optional,
   org.apache.commons.logging;resolution:=optional,
   org.apache.log4j;resolution:=optional,
   org.apache.tomcat.jni;resolution:=optional,
