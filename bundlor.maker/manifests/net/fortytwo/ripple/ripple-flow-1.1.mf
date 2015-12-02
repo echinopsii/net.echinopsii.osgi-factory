@@ -4,4 +4,7 @@ Bundle-Name: net.echinopsii.3rdparty.net.fortytwo.ripple.ripple-flow
 Bundle-Vendor: net.fortytwo (source) / echinopsii (bundle)
 Bundle-Version: 1.1
 Import-Template:
-  net.fortytwo.ripple;version="1.1"
+  net.fortytwo.*;version="1.1",
+  org.openrdf*;version="2.7.10",
+  info.aduna*;version="2.7.10",
+  org.apache.commons.httpclient*;version="3.1";resolution:="optional"

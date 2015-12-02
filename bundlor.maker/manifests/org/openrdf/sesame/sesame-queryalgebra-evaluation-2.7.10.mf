@@ -5,5 +5,6 @@ Bundle-Vendor: org.openrdf (source) / echinopsii (bundle)
 Bundle-Version: 2.7.10
 Import-Template:
   info.aduna*;version="2.7.10",
+  org.openrdf.http*;version="2.7.10";resolution:="optional",
   org.openrdf*;version="2.7.10"
   

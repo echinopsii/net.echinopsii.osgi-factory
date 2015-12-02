@@ -6,4 +6,5 @@ Bundle-Version: 1.1
 Import-Template:
   info.aduna*;version="2.7.10",
   org.openrdf*;version="2.7.10",
-  net.fortytwo*;version="1.1"
+  net.fortytwo*;version="1.1",
+  org.apache.commons.httpclient*;version="3.1";resolution:="optional"

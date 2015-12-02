@@ -1,0 +1,7 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.echinopsii.3rdparty.com.fasterxml.jackson.core.jackson-databind
+Bundle-Name: net.echinopsii.3rdparty.com.fasterxml.jackson.core.jackson-databind
+Bundle-Vendor: FasterXML (source) / echinopsii (bundle)
+Bundle-Version: 2.2.3
+Import-Template:
+  com.fasterxml*;version="2.2.3"
