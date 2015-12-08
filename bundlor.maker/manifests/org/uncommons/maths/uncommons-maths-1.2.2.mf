@@ -1,0 +1,5 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.echinopsii.3rdparty.org.uncommons.maths.random
+Bundle-Name: net.echinopsii.3rdparty.org.uncommons.maths.random
+Bundle-Vendor: uncommons (source) / echinopsii (bundle)
+Bundle-Version: 1.2.2
