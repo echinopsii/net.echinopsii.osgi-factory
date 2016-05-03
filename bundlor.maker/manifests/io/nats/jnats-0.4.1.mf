@@ -1,0 +1,5 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.echinopsii.3rdparty.jnats
+Bundle-Name: net.echinopsii.3rdparty.jnats
+Bundle-Vendor: nats.io (source) / echinopsii (bundle)
+Bundle-Version: 0.4.1
