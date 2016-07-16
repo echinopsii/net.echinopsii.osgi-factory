@@ -494,7 +494,7 @@
                                     </includes>
                                 </filter>
                                 <filter>
-                                    <artifact>org.neo4j.app:neo4j-server</artifact>
+                                    <artifact>org.neo4j.app:neo4j-browser</artifact>
                                     <includes>
                                         <include>**/*.xml</include>
 					<include>META-INF/services/</include>
